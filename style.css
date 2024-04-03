@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding: 0%;
     margin: 0%;
@@ -315,4 +316,323 @@ html,body{
         border-top: .1rem solid #344955;
         box-shadow: 0.5rem;
     }
+=======
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #344955;
+    font-family: 'Inter',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* home */
+#header{
+    top: rem;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+.home{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar a{
+    margin-left: 4rem;
+    font-size: 1.7rem;
+    color: whitesmoke;
+    text-decoration: none;
+    outline: none;
+    transition: .3s;
+}
+.heading{
+    color: whitesmoke;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 2rem;
+    cursor: default;
+}
+#navbar a:hover,
+#navbar a#active{
+    color: #0ED1E0;
+}
+#content{
+    padding: 10rem 9% 2rem;
+    margin-right: 6rem;
+    min-height: 100vh;
+}
+#content h2{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+#content span{
+    color: #0ED1E0;
+}
+#content .name{
+    color: white;
+    font-size: 4rem;
+    font-weight: 900;
+}
+#content p{
+    width: 30rem;
+    color: white;
+    padding-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#icons a{
+    margin-top: 30px;
+    font-size: 3rem;
+    width: 4rem;
+    height: 4rem;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;    
+    background: transparent;
+    border: 2rem solid #344955;
+    border-radius: 50%;
+    color: #0ED1E0;
+    transition: .5s ease;
+}
+#menu{
+    display: none;
+}
+#icons a:hover{
+    background: #0ED1E0;
+    color: #0ED1E0;
+    box-shadow: 0 0 1rem #0ED1E0;
+}
+
+.btn{
+    margin-top: 30px;
+    display: inline-block;
+    padding: 0.6rem 2rem;
+    background-color: #0ED1E0;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 4rem;
+    border: 4px solid #0ED1E0;
+    box-shadow: 0 0 5px #0ED1E0;
+}
+.btn:hover{
+    color:white;
+    background-color: #0ED1E0;
+     box-shadow: 0 0 50px #0ED1E0;
+}
+.home img{
+    height: 30rem;
+    width: 30rem;
+    margin-right: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #0ED1E0 ;
+    box-shadow: 0 0 50rem #0ED1E0;
+}
+
+/* about */
+
+#section-2{
+    height: 100%;
+    width: 100%;
+    margin-top: 6.6rem;
+    background-color: #344955;
+}
+#content-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+}
+#content-2 img{
+    height: 30rem;
+    width: 30rem;
+    margin: 30% 10%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #0ED1E0 ;
+    background-color: #0ED1E0;
+    box-shadow: 0 0 5rem #0ED1E0;
+}
+#about h1{
+    font-size: 4rem;
+    color: white;
+    font-weight: 800;
+}
+#about span{
+    color: #0ED1E0;
+}
+#about h2{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+#about p{
+    width: 30rem;
+    color: white;
+    padding-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#btn{
+    margin-top: 30px;
+    display: inline-block;
+    padding: 0.6rem 2rem;
+    background-color: #0ED1E0;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 4rem;
+    border: 4px solid #0ED1E0;
+    box-shadow: 0 0 5px #0ED1E0;
+}
+#btn:hover{
+    color:white;
+    background-color: #0ED1E0;
+     box-shadow: 0 0 50px #0ED1E0;
+}
+#section-3{
+    width: 100%;
+    height: 100%;
+    background-color: #344955;
+    position: relative;
+} 
+#c-heading{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-top: 7%;
+    margin-left: 40%;
+}
+#c-heading span{
+    color: #0ED1E0;
+}
+#contact form{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+#form input{
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 400px;
+    background-color: #B4B4B8;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #0ED1E0;
+}
+.form input{
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 400px;
+    background-color: #B4B4B8;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #0ED1E0;
+}
+#message{
+    width: 803px;
+    margin-left: 20%;
+    margin-top: 20px;
+    padding: 1rem;
+    font-size: 20px;
+    background-color: #B4B4B8;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #0ED1E0;
+    resize: none;
+}
+#submit{
+    margin-top: 30px;
+    margin-left: 40%;
+    padding: 0.6rem 2rem;
+    background-color: #0ED1E0;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 4rem;
+    border: 2px solid #0ED1E0;
+    box-shadow: 0 0 5px #0ED1E0;
+}
+#submit:hover{
+    color:white;
+    background-color: #0ED1E0;
+     box-shadow: 0 0 50px #0ED1E0;
+}
+::placeholder{
+    color:whitesmoke
+}
+#footer{
+    padding: 0rem 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #B4B4B8;
+}
+#footer-text{
+    font-size: 1.6rem;
+}
+#footer-icon a{
+    padding: 0.8rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0ED1E0;
+    border-radius: 50%;
+}
+#footer-icon a:hover{
+    box-shadow: 0 0 1rem #0ED1E0;
+}
+#footer-icon i{
+    font-size: 1rem;
+    color: #344955;
+}
+
+@media(max-width: 1200px){
+    html,body{
+        font-size: 55%;
+    }
+}
+@media(max-width: 981px){
+    #header{
+        padding: 2rem 3%;
+    }
+    section{
+        padding: 10rem 3% 2rem;
+    }
+    #footer{
+        padding: 2rem 3%;
+    }
+}
+@media(max-width: 768px){
+    #menu{
+        display: block;
+    }
+    #nabar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: #0ED1E0;
+        border-top: .1rem solid #344955;
+        box-shadow: 0.5rem;
+    }
+>>>>>>> cf0869a02baee5d96a22d1127e9ab9355003bbc4
 }
